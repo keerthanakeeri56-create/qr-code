@@ -1,6 +1,6 @@
 import streamlit as st
 import qrcode
-from  PTL import Image
+from  PIL import Image
 
 st.title("Qr code generator")
 data=st.text_input("enter url")
